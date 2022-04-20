@@ -1,4 +1,4 @@
-package com.wu.mybatisplus.controller;
+package com.wu.mybatisplus.controller.mybatisPlus;
 
 import com.wu.mybatisplus.entity.User;
 import com.wu.mybatisplus.mapper.UserMapper;

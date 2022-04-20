@@ -36,7 +36,7 @@ public class OpenApiConfig {
     @Bean
     public Docket openApi() {
 
-        String groupName = "Test Group";
+        String groupName = "MongoTest Group";
         return new Docket(DocumentationType.OAS_30)
                 .groupName(groupName)
                 .apiInfo(apiInfo())

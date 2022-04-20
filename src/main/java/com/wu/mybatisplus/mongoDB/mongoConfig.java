@@ -1,10 +1,12 @@
 package com.wu.mybatisplus.mongoDB;
 
 /**
- * @className: mongo
+ * @className: mongoConfig
  * @description: TODO 类描述
  * @author: sy
  * @date: 2022-04-19
  **/
-public class mongo {
+public class mongoConfig {
+
+
 }

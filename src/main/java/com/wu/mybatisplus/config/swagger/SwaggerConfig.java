@@ -35,7 +35,7 @@ public class SwaggerConfig {
     @Bean
     public Docket openApi() {
         return new Docket(DocumentationType.OAS_30)
-                .groupName("Test group")
+                .groupName("MongoTest group")
                 .apiInfo(apiInfo())
                 .select()
                 .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
