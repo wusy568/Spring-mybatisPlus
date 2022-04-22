@@ -20,7 +20,7 @@ import java.util.List;
  * @author: sy
  * @date: 2022-03-23
  **/
-@Api(tags = "CRUD控制器")
+@Api(tags = "mybatisPlus CRUD")
 @RestController
 @RequestMapping("/controller")
 public class UserController {

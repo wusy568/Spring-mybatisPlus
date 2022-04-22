@@ -9,5 +9,10 @@
       "name": "jwt.header",
       "type": "java.lang.String",
       "description": "Description for jwt.header."
+    },
+    {
+      "name": "jwt.tokenPrefix",
+      "type": "java.lang.String",
+      "description": "Description for jwt.tokenPrefix."
     }
   ] }

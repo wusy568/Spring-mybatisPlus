@@ -58,7 +58,7 @@ knife4j:
     # footer
     enableFooter: false
     enableFooterCustom: true
-    footerCustomContent: MIT | [Java 全栈](https://pdai.tech)
+    footerCustomContent: WUSY | [knife4j]
 
     # header
     enableHomeCustom: true
