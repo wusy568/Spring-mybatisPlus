@@ -95,5 +95,19 @@ public class MongoUserController {
 
     }
 
+    @ApiOperation(value = "save or update", httpMethod = "POST")
+    @PostMapping("/update")
+    public ResponseEntity<String> updateOne(@RequestBody MongoUser mongoUser) {
+
+        mongoUser.setId("jack");
+        mongoUser.setAge(20);
+        mongoUser.setAddress("天府大道");
+        mongoUser.setCreatTime(new Date());
+
+        mongoTemplate.save(mongoUser);
+
+        return ResponseEntity.ok("success");
+    }
+
 
 }
