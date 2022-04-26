@@ -24,7 +24,7 @@ import java.util.Date;
 public class MongoUser {
 
     @MongoId
-    private String id;
+    private Object id;
 
     private String name;
 
